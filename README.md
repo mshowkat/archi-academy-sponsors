@@ -14,5 +14,7 @@ this is a fully responsive react js web app hosted on firebase.  [check out the 
 
 hopefully you won't have any error... 
 
+## Desktop view:
 ![archi's academy sponsor page screen shot](https://i.ibb.co/BGyYdSg/archi-s-academy-sponsor-page.png)
+## Mobile view:
 ![archi's academy sponsor page mobile view screenshot](https://i.ibb.co/k1vVxyC/archi-s-academy-sponsor-page-mobile-view.png)
