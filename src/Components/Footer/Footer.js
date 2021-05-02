@@ -12,7 +12,7 @@ const Footer = () => {
         </Navbar.Brand>
       </Navbar>
       <Navbar className="footer-navBar" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className='footer-nav-toggle' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             {footerNavItems.map(({ title, path }) => (

@@ -8,6 +8,10 @@
   margin: 40px 40px;
 }
 
+.footer-nav-toggle {
+  background: #ce1b7d;
+}
+
 .footer-navBar {
   margin: auto 30px;
   background-color: #141414;
@@ -20,12 +24,12 @@
   color: azure;
 }
 
-.footer-credit{
-    margin: auto 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: start;
+.footer-credit {
+  margin: auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
 }
 
 .footer-credit-btn-active {
