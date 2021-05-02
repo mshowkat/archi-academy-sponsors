@@ -1,0 +1,42 @@
+.footer-container {
+  height: auto;
+  background-color: #141414;
+}
+
+.footer-logo {
+  padding: 30px auto;
+  margin: 40px 40px;
+}
+
+.footer-navBar {
+  margin: auto 30px;
+  background-color: #141414;
+  color: azure;
+}
+
+.footer-nav-item {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: azure;
+}
+
+.footer-credit{
+    margin: auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-credit-btn-active {
+  background: rgba(253, 0, 112, 0.32);
+  border: none;
+  box-shadow: 0px 0px 8px rgba(253, 0, 112, 0.25);
+  backdrop-filter: blur(40px);
+}
+
+.footer-credit-btn {
+  border: none;
+  background: rgba(0, 68, 208, 0.04);
+  backdrop-filter: blur(40px);
+}

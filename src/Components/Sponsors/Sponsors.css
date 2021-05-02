@@ -1,0 +1,24 @@
+.sponsors-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(0, 68, 208, 0.08);
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  padding: 30px auto;
+  margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 1000) {
+    .sponsors-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        background: none;
+        backdrop-filter: blur(0px);
+        border-radius: 20px;
+        padding: 30px auto;
+      }
+}

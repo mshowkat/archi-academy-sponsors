@@ -19,12 +19,16 @@
   padding: auto 20px;
   margin: auto 40px;
 }
+.nav-action {
+  padding: auto 20px;
+  margin: auto 40px;
+}
 
 .nav-login {
   font-weight: 600;
   color: #f8f8f8;
 }
-.nav-login:hover{
+.nav-login:hover {
   font-weight: 600;
   color: #ffe2e2;
 }
@@ -44,4 +48,9 @@
     inset 0px -4px 4px rgba(0, 0, 0, 0.2),
     inset 0px 4px 4px rgba(255, 207, 228, 0.12);
   border-radius: 8px;
+  padding: auto 20px;
+}
+
+.nav-toggle-button{
+    background-color: #ff3e94;
 }

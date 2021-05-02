@@ -12,7 +12,7 @@ const NavBar = () => {
             <img src="/logomoon.svg" alt="" />
           </Navbar.Brand>
         </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='nav-toggle-button' />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             {navLinks.map(({ title, path, id }) => (
@@ -21,10 +21,12 @@ const NavBar = () => {
               </Nav.Link>
             ))}
           </Nav>
-          <a className="mx-3 nav-login">Login</a>
-          <Button variant="outline-success" className="mx-3 nav-skill-test">
-            Skill Test
-          </Button>
+          <div className="nav-action">
+            <a className="mx-3 nav-login">Login</a>
+            <Button variant="outline-success" className="mx-3 nav-skill-test">
+              Skill Test
+            </Button>
+          </div>
         </Navbar.Collapse>
       </Navbar>
     </div>
