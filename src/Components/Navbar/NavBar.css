@@ -1,0 +1,47 @@
+.custom-navbar {
+  background-color: rgba(0, 31, 96, 0.2);
+  backdrop-filter: blur(30px);
+}
+
+.nav-items {
+  color: #f8f8f8;
+  padding: 5px 20px;
+  margin: 10px 20px;
+  font-weight: 400;
+}
+
+.brand-container {
+  /* background-color: #f8f8f8; */
+  border-right: 1px solid #f8f8f88f;
+}
+.logo-container {
+  /* background-color: #f8f8f8; */
+  padding: auto 20px;
+  margin: auto 40px;
+}
+
+.nav-login {
+  font-weight: 600;
+  color: #f8f8f8;
+}
+.nav-login:hover{
+  font-weight: 600;
+  color: #ffe2e2;
+}
+
+.nav-skill-test {
+  font-weight: 600;
+  color: #f8f8f8;
+  background: linear-gradient(
+    180deg,
+    #ff3e94 -55.77%,
+    #db0061 52.17%,
+    #980043 166.35%
+  );
+  border: 0.25px solid #980043;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 20px rgba(253, 0, 112, 0.4),
+    inset 0px -4px 4px rgba(0, 0, 0, 0.2),
+    inset 0px 4px 4px rgba(255, 207, 228, 0.12);
+  border-radius: 8px;
+}
