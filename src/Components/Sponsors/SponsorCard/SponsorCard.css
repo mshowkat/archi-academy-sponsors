@@ -1,0 +1,87 @@
+.sponsor-card {
+  width: 392.5px;
+  background: rgba(0, 68, 208, 0.1);
+  backdrop-filter: blur(40px);
+  border: 0.25px solid #1e4697;
+  border-radius: 8px;
+  text-align: left;
+  margin: 40px 20px;
+}
+
+.sponsor-card-image {
+  padding: 20px;
+  background: rgba(0, 68, 208, 0.1);
+  backdrop-filter: blur(40px);
+  border-radius: 8px;
+}
+
+.sponsor-card-title{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.sponsor-card-button {
+  width: 100%;
+  height: 48px;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    rgba(89, 143, 255, 0.6) -55.77%,
+    rgba(0, 76, 234, 0.6) 52.17%,
+    rgba(0, 39, 122, 0.6) 166.35%
+  );
+  border: 0.25px solid #226aff;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 20px rgba(0, 21, 64, 0.2),
+    inset 0px -4px 4px rgba(0, 0, 0, 0.2),
+    inset 0px 4px 4px rgba(145, 180, 255, 0.24);
+  backdrop-filter: blur(40px);
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+.sponsor-card-footer {
+  text-align: center;
+}
+.sponsor-card-footer-anchor {
+  color: #ff8ccc;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000) {
+  .sponsor-card {
+    background: rgb(0, 40, 119);
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+  }
+  .sponsor-card-image {
+    width: 70%;
+    padding: 20px;
+    background: rgb(0, 69, 208);
+    backdrop-filter: blur(40px);
+    border-radius: 8px;
+  }
+  .sponsor-card-button {
+    width: 100%;
+    height: 48px;
+    font-weight: 600;
+    background: #002266;
+    font-size: 16px;
+    justify-content: space-between;
+  }
+  .sponsor-card-title{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
